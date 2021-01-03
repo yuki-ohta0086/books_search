@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-# rubocop:disable Style/LineLength, Style/StringLiterals
+# rubocop:disable Style/StringLiterals
 require_relative "lib/books_search/version"
 
 Gem::Specification.new do |spec|
@@ -39,5 +39,5 @@ Gem::Specification.new do |spec|
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
 
-  # rubocop:enable Style/LineLength, Style/StringLiterals
+  # rubocop:enable Style/StringLiterals
 end
