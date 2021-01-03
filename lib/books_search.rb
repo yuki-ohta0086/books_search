@@ -10,7 +10,7 @@ module BooksSearch
   GOOGLEAPI_URL = 'https://www.googleapis.com/books/v1/volumes?q='
 
   def get_book_json(params)
-    return if params.nil?
+    return if params.blank?
     uri = URI.parse(GOOGLEAPI_URL + params)
     resources = Net::HTTP.get(uri)
     puts resources
