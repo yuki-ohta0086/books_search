@@ -27,8 +27,9 @@ Gem::Specification.new do |spec|
   end
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
-  spec.require_paths = %w[lib]
-
+  # rubocop:disable Style/WordArray
+  spec.require_paths = ['lib']
+  # rubocop:enable Style/WordArray
   spec.add_development_dependency 'bundler', '~> 2.2'
   spec.add_development_dependency 'rake', '~> 13.1'
   spec.add_development_dependency 'rspec', '~> 3.0'
