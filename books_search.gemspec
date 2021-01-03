@@ -8,11 +8,11 @@ Gem::Specification.new do |spec|
   spec.authors       = ["yuki-ohta0086"]
   spec.email         = ["yukiohta0823@gmail.com"]
 
-  spec.summary       = %q{GoogleBooksAPI use.}
-  spec.description   = %q{It uses google to search for books.}
+  spec.summary       = "GoogleBooksAPI use."
+  spec.description   = "It uses google to search for books."
   spec.homepage      = "https://github.com/yuki-ohta0086"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.6.0")
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
